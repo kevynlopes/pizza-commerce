@@ -13,6 +13,7 @@ pizzaJson.map((item, index) => {
   pizzaItem.querySelector("a").addEventListener("click", (e) => {
     e.preventDefault();
 
+    c(".pizzaWindowArea").style.opacity = 1;
     c(".pizzaWindowArea").style.display = "flex";
     c(".pizzaWindowArea").style.opacity = 1;
   });
